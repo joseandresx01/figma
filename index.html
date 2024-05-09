@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <style>
+        .body {
+            font-family: sans-serif;
+            margin: 0%;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .menu {
+
+            background-color: black;
+            height: 80px;
+            color: white;
+
+        }
+
+        .logo1{
+            width: 99px;
+            height: 74px;
+
+        }
+
+        .lista1 {
+            margin-left: 100px;
+            display: flex;
+        }
+
+        .lista2 {
+            display: flex;
+            margin-left: 120px;
+            margin-top: 15px;
+
+        }
+
+        .lista3 {
+            height: 30px;
+            margin-left: 120px;
+            margin-top: 10px;
+        }
+
+        .lista4 {
+            margin-top: 7px;
+            margin-left: 30px;
+
+        }
+
+        .lista5 {
+            list-style: none;
+        }
+
+        .seccion1 {
+            height: 966px;
+            background-image: url(fondo1.png);
+        }
+
+
+
+
+        .seccion2 {
+            margin-top: 150px;
+            height: 800px;
+            background-color: white;
+            color: black;
+            font-size: 34px;
+            text-align: center;
+        }
+        .ache{
+            margin-top: 10px;
+        }
+
+        .rectangulos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .rectangulo1 {
+            width: 400px;
+            height: 600px;
+            background-color: #D9D9D9;
+        }
+
+        .fondo2padre {
+            margin-top: 15px;
+        }
+
+        .rectangulo2 {
+            width: 400px;
+            height: 600px;
+            background-color: #D9D9D9;
+
+        }
+
+        .fondo3padre {
+            margin-top: 15px;
+        }
+
+        .rectangulo3 {
+
+            width: 400px;
+            height: 600px;
+            background-color: #D9D9D9;
+            justify-content: end;
+        }
+
+        .fondo4padre {
+            margin-top: 15px;
+        }
+
+
+
+
+        .seccion3 {
+            background-color: #d9d9d9;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            color: black;
+        }
+
+        .seccion3 .boton1 {
+            background-color: #00ff29;
+            padding-left: 10px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            width: 60px;
+
+        }
+
+        .seccion3 h2 {
+            margin-top: 200px;
+        }
+
+        .seccion3 h3 {
+            margin-bottom: 50px;
+        }
+
+        .imagen {
+            display: flex;
+        }
+
+
+        .linea {
+            color: #00ff29;
+        }
+
+
+        .seccion4 {
+            text-align: center;
+            background-color: white;
+
+        }
+
+        .seccion4 h1 {
+            font-size: 71px;
+            color: black;
+        }
+
+        .rectangulos1 {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            
+        }
+
+        .rectangulo4 {
+        
+            background-color: #D9D9D9;
+            width: 350px;
+            height: 450px;
+        }
+
+        .camisa {
+            width: 71%;
+            padding-top: 20px;
+        }
+
+        .fondop4 {
+            border: 3px solid;
+            border-color: #D9D9D9;
+            height: 100px;
+            margin-top: 62px;
+            background-color: white;
+            color: black;
+        }
+
+        .rectangulo5 {
+            background-color: #D9D9D9;
+            width: 350px;
+            height: 450px;
+        }
+
+        .pantalon {
+            width: 353px;
+        }
+
+        .fondop5 {
+            border: 3px solid;
+            border-color: #D9D9D9;
+            height: 100px;
+            margin-top: 77px;
+            background-color: white;
+            color: black;
+        }
+
+        .rectangulo6 {
+            background-color: #D9D9D9;
+            width: 350px;
+            height: 450px;
+        }
+
+        .camisa2 {
+            width: 63%;
+            margin-top: 20px;
+        }
+
+        .fondop6 {
+            border: 3px solid;
+            border-color: #D9D9D9;
+            height: 100px;
+            margin-top: 52px;
+            background-color: white;
+            color: black;
+        }
+
+        .rectangulo7 {
+            background-color: #D9D9D9;
+            width: 350px;
+            height: 400px;
+        }
+        .blusa{
+            width: 94%;
+        }
+
+        .fondop7 {
+            border: 3px solid;
+            border-color: #D9D9D9;
+            height: 100px;
+            margin-top: 20px;
+            background-color: white;
+            color: black;
+        }
+
+        .personas {
+            margin-top: 100px;
+            display: flex;
+            justify-content:space-between;
+        
+        }
+
+        .personas1 {
+            width: 360px;
+
+        }
+
+
+
+
+        .seccion5 {
+            background-color: black;
+            height: 500px;
+        }
+    </style>
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <div class="menu">
+        <div class="lista1">
+            <img class="logo1"src="menu.png" alt="">
+            <div class="lista2">
+                <ul class="lista5">
+                    <li>HOME</li>
+                </ul>
+                <ul class="lista5">
+                    <li>OUR CATEGORY</li>
+                </ul>
+                <ul class="lista5">
+                    <li>ABOUT US</li>
+                </ul>
+                <ul class="lista5">
+                    <li>PRODUCT</li>
+                </ul>
+                <ul class="lista5">
+                    <li>INSTAGRAM</li>
+                </ul>
+                <ul class="lista5">
+                    <li>CONTACT US</li>
+                </ul>
+                <div class="lista3">
+                    <img src="lupa.png" alt="">
+                </div>
+                <div class="lista4">
+                    <img src="compra.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="seccion1">
+
+        </div>
+        <div class="seccion2">
+            <h3>Join a network of more than 500 runners supporting our local <br> running community.</h3>
+            <div class="rectangulos">
+                <div class="rectangulo1">
+                    <div class="fondo2padre">
+                        <img src="fondo2.png" alt="">
+                        <h4 class="ache">Local Race</h4>
+                        <h6>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident.
+                        </h6>
+                    </div>
+
+                </div>
+                <div class="rectangulo2">
+                    <div class="fondo3padre">
+                        <img src="fondo3.png" alt="">
+                        <h4 class="ache">Networking</h4>
+                        <h6>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident.
+                        </h6>
+                    </div>
+                </div>
+                <div class="rectangulo3">
+                    <div class="fondo4padre">
+                        <img src="fondo4.png" alt="">
+                        <h4 class="ache">Programs</h4>
+                        <h6>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="seccion3">
+            <div>
+                <h2>Welcome to Runclub</h2>
+                <h1>We Are The Best Running <br> Club in Town</h1>
+                <h1 class="linea">_____</h1>
+                <h3><b>Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium
+                        <br> doloremque laudantium, totam rem.</b></h3>
+
+                <div class="boton1">
+                    About us
+                </div>
+
+            </div>
+
+            <div class="imagen">
+                <img src="deportista.png" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="seccion4">
+            <h1>OUR PRODUCT</h1>
+            <div class="rectangulos1">
+                <div class="rectangulo4">
+                    <div class="rectangulo4padre">
+                        <img class="camisa" src="camisa.png" alt="">
+                        <div class="fondop4">
+                            <h2>SHIRT</h2>
+                            <h3>Cade-01</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="rectangulo5">
+                    <div class="rectangulo5padre">
+                        <img class="pantalon" src="pantalon.png" alt="">
+                        <div class="fondop5">
+                            <h2>TRUISER</h2>
+                            <h3>Cade-02</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="rectangulo6">
+                    <div class="rectangulo6padre">
+                        <img class="camisa2" src="camisa2.png" alt="">
+                        <div class="fondop6">
+                            <h2>T-SHIRT</h2>
+                            <h3>Cade-03</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="rectangulo7">
+                    <div class="rectangulo7padre">
+                        <img class="blusa" src="blusa.png" alt="">
+                        <div class="fondop7">
+                            <h2>HIGH NEC</h2>
+                            <h3>Cade-04</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="personas">
+            <div class="personas1">
+                <img src="personas1.png" alt="">
+            </div>
+            <div class="personas1">
+                <img src="personas2.png" alt="">
+            </div>
+            <div class="personas1">
+                <img src="personas3.png" alt="">
+            </div>
+            <div class="personas1">
+                <img src="personas4.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="seccion5"></div>
+        </head>
+
+        <body>
+
+        </body>
+
+</html>
